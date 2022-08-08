@@ -12,7 +12,6 @@ body {
   box-shadow: 4px 4px black;
   clear: both;
   display: table;
-
 }
   h1 {
     font-size: 100px;
@@ -94,10 +93,10 @@ body {
   a:hover {
     text-decoration: underline;
   }
-  ul{
+  ul {
     list-style-type: square;
   }
-  li{
+  li {
     font-family: "Terminal", sans-serif;
     color: white;
     text-align: left;
@@ -115,7 +114,7 @@ body {
     clear: both;
     display: table;
   }
-  .gif{
+  .gif {
     display: block;
     margin: auto;
     margin-left: 140px;
