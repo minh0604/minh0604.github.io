@@ -42,8 +42,8 @@ body {
     font-family: "Terminal", sans-serif;
     color: white;
     text-align: right;
-    margin-top: 297px;
-    margin-bottom:20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     margin-right: 239px;
     display: block;
   }
@@ -73,6 +73,12 @@ body {
     font-size: 17px;
     text-align: left;
     margin: 16px 0px 16px 27px;
+  }
+  #gif{
+    display: block;
+    margin: auto;
+    margin-left: 140px;
+    margin-top: -20px;
   }
   #image1 {
     float: right;
