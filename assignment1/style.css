@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Terminal";
-  src: url(/Front/terminal-grotesque.ttf);
+  src: url(Front/terminal-grotesque.ttf);
 }
 body {
     background-color: #38B9BF;
