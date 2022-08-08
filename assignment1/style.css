@@ -115,3 +115,9 @@ body {
     clear: both;
     display: table;
   }
+  .gif{
+    display: block;
+    margin: auto;
+    margin-left: 140px;
+    margin-top: -20px;
+  }
