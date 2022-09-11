@@ -39,7 +39,7 @@ hr {
 #list-filter-wrapper{
   display: flex;
   flex-direction: column;
-  margin-top: -45px;
+  margin-top: -27px;
 }
 /*Align filter of caterory and change the style*/
 .FilterCategoryWrapper{
@@ -53,12 +53,12 @@ hr {
 
 /* this is the filter category heading */
 summary {
-  font-size: 3rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 /*change the filter selector*/
 .FilterSelector {
-  font-size: 3rem;
+  font-size: 1.5rem;
   background-color: var(--col-01);
   color: var(--col-02);
   border-radius: 5px;
@@ -90,8 +90,8 @@ summary {
 }
 /*change box size of recipe card wrapper */
 .RecipeCardWrapper{
-  height: 30rem;
-  width: 40rem;
+  height: 37rem;
+  width: 27rem;
   padding: 1rem;
   border: solid var(--col-02) 2px;
   flex-grow: 1;
@@ -123,7 +123,7 @@ h1{
   
 }
 h2{
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 
 /* for screens over 768px wide */
