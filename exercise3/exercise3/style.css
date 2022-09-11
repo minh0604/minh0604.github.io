@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+  background-origin: border-box;
+  margin: 0;
+}
+
+/* Basis for colour palette comes from 1bit Monitor Glow Palette by Polyducks */
+/* https://lospec.com/palette-list/1bit-monitor-glow */
+
+:root{
+  --col-01:#222323;
+  --col-02:#f0f6f0;
+  --col-03:#f92323;
+  --col-04:#b6e878;
+  --col-05: rgb(255, 253, 253);
+  --col-06: rgb(27, 197, 172);
+  --col-07: yellow;
+}
+
+body{
+  background-color: var(--col-01);
+  color: var(--col-02);
+  padding: 2vw;
+}
+
+a {
+  color: var(--col-04);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--col-03);
+  text-decoration: underline;
+}
+
+hr {
+  margin-bottom: 4vh;
+}
+
+#list-filter-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: -45px;
+}
+/*Align filter of caterory and change the style*/
+.FilterCategoryWrapper{
+  display: flex;
+  text-align: center;
+  color: var(--col-04);
+  background: 2px 2px 2px 2px var(--col-05);
+  border: black;
+  margin: 0 auto;
+}
+
+/* this is the filter category heading */
+summary {
+  font-size: 3rem;
+  cursor: pointer;
+}
+/*change the filter selector*/
+.FilterSelector {
+  font-size: 3rem;
+  background-color: var(--col-01);
+  color: var(--col-02);
+  border-radius: 5px;
+  border-color: #999;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin: 4px -200px 10px 0px;
+}
+/*box for elements*/
+.FilterSelector:hover {
+  color: var(--col-03);
+}
+.FilterSelector:active {
+  color: var(--col-03);
+}
+/*change color background*/
+.ActiveCategory {
+  background-color: var(--col-07);
+  color: var(--col-01); 
+  border-radius: 5px;
+}
+
+
+#recipe-list-wrapper{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+/*change box size of recipe card wrapper */
+.RecipeCardWrapper{
+  height: 30rem;
+  width: 40rem;
+  padding: 1rem;
+  border: solid var(--col-02) 2px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+/*change color when hovering*/
+.RecipeCardWrapper:hover{
+  border: dotted rgb(255, 15, 15) 2px;
+  cursor: pointer;
+}
+/*and margin images auto*/
+.RecipeImg{
+  object-fit: contain;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+.RecipeTitle{
+  font-size: 2rem;
+}
+.RecipeAuthor{
+  font-size: 1.5rem;
+}
+/*align text */
+h1{
+  text-align: center;
+  font-size: 50px;
+  
+}
+h2{
+  font-size: 30px;
+}
+
+/* for screens over 768px wide */
+@media all and (min-width: 768px) {
+  
+  hr {
+    margin-bottom: 4vw;
+  }
+
+  #list-filter-wrapper{
+    flex-direction: row;
+  }
+
+  .FilterSelector {
+    text-align: unset;
+    width: unset;
+  }
+  
+}
