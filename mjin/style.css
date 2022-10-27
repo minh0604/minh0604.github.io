@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Terminal";
+  src: url(Front/terminal-grotesque.ttf);
+}
+
+@font-face {
+  font-family: "Bodoni";
+  src: url(Front/LibreBodoni-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Basker";
+  src: url(Front/LibreBaskerville-Regular.ttf);
+}
+body {
+    background-color: #000000;
+  }  
+.sections {
+  background-color: rgb(0, 0, 0);
+  margin: 40px;
+  box-shadow: 4px 4px black;
+  clear: both;
+  display: table;
+}
+img{
+  box-shadow: 4px 4px black;
+}
+  h1 {
+    font-size: 100px;
+    font-family: "Bodoni";
+    color: rgb(247, 169, 1);
+    text-shadow: 4px 4px black;
+    text-align: center; 
+  }
+  .sections1{
+    margin: auto;
+    margin-top: -50px;
+  }
+  #about1{
+    text-align: center;
+  }
+  h2 {
+    font-size: 15px;
+    margin-top: -42px;
+    font-family: "Basker", sans-serif;
+    color: white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+  }
+  h3 {
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: "Basker", sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+  }
+  h5 {
+    font-size: 35px;
+    font-family: "Basker", sans-serif;
+    color: white;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 239px;
+    display: block;
+  }
+  h4{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Basker", sans-serif;
+    color: rgb(255, 37, 29);
+    text-align: left;
+  }
+  h6 {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Basker", sans-serif;
+    color: rgb(255, 37, 29);
+    text-align: left;
+  }
+  h7 {
+    display: block;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+    font-family: "Basker", sans-serif;
+    color: #BAF447;
+    text-align: left;
+  }
+  p {
+    font-family: "Basker", sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin: 16px 0px 16px 27px;
+    line-height: 1.8;
+  }
+  #image1 {
+    display: block;
+    margin: auto;
+    box-shadow: 4px 4px black;
+  }
+  #image2,
+  #image3 {
+    display: block;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 4px rgb(7, 7, 7);
+  }
+  a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+  }
+  #about1{
+    margin-left: -5px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    list-style-type: square;
+  }
+  li {
+    font-family: "Terminal", sans-serif;
+    color: white;
+    text-align: left;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .column2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column3 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .column4 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column5 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .gif {
+    display: block;
+    margin: auto;
+    margin-left: 140px;
+    margin-top: -20px;
+  }
+  nav {
+    margin-left: 200px;
+    margin-right: auto;
+  }
+  ol{
+    display: inline-block;
+    text-align: center;
+  }
+  #Biography{
+    width: 100px;
+    height: 40px;
+    color: var(--col-02);
+    background-color: var(--col-05);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    outline: none;
+  }
+  #Biography:hover{
+    box-shadow: inset 100px 0 0 0 rgb(255, 208, 0);
+    cursor: pointer;
+    color: var(--col-01);
+  }
+  
+  #Bands{
+    width: 200px;
+    height: 40px;
+    color: var(--col-02);
+    background-color: var(--col-05);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    outline: none;
+  }
+  #Bands:hover{
+    box-shadow: inset 200px 0 0 0 rgb(255, 208, 0);
+    cursor: pointer;
+    color: var(--col-01);
+  }
+  #fg1{
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px rgb(7, 7, 7);
+  }
+  #Fl{
+    font-family: "Basker", sans-serif;
+    font-size: large;
+    color: rgb(255, 37, 29);
+  }
