@@ -160,6 +160,11 @@ img{
     width: 25%;
     padding: 5px;
   }
+  .column6 {
+    float: left;
+    width: 100%;
+    padding: 5px;
+  }
   .row::after {
     content: "";
     clear: both;
